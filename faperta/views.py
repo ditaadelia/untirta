@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def prodi1(request):
-    judul = ["Teknologi Pangan", "Ilmu Perikanan", "Agroekoteknologi", "Agribisnis"]
+    judul = []
 
     konteks = {
         'title' : judul,

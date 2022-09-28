@@ -23,6 +23,7 @@ from fk.views import prodi5
 from fkip.views import prodi6
 from ft.views import prodi7
 from pascasarjana.views import prodi8
+from univ.views import univ
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -34,4 +35,5 @@ urlpatterns = [
     path('fkip/', prodi6),
     path('ft/', prodi7),
     path('pascasarjana/', prodi8),
+    path('universitas/', univ),
 ]
